@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(18, 23, 49);
+}
+nav {
+  background-color: #071428 !important;
+}
+
+.channel img {
+  background-color: rgb(18, 23, 49);
+}
+
+.img-one {
+  width: 100%;
+  height: 60vh;
+}
+.img-one_area {
+  height: 50vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(18, 23, 49, 0.857),
+      rgb(18, 23, 49)
+    ),
+    url("/images/hqdefault.jpg");
+
+  position: relative;
+}
+.img-one .group {
+  height: 100%;
+}
+
+.img-container {
+  width: 100%;
+  height: 60vh;
+  margin-top: 100px;
+
+  background-image: linear-gradient(
+      to right,
+      rgb(18, 23, 49),
+      rgba(18, 23, 49, 0.917)
+    ),
+    url("/images/flm.jpg");
+}
